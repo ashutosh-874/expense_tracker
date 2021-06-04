@@ -67,9 +67,15 @@ export default function TransactionForm({ categories }) {
               step="0.01"
             />
           </div>
+
+          <div>
+            <button style={{marginTop: '18px'}}>Add Transaction</button>
+          </div>
         </div>
 
-        <button>Add Transaction</button>
+        
+
+        
       </form>
     </section>
   );
